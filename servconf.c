@@ -600,7 +600,7 @@ static struct {
 	{ "xauthlocation", sXAuthLocation, SSHCFG_GLOBAL },
 	{ "strictmodes", sStrictModes, SSHCFG_GLOBAL },
 	{ "permitemptypasswords", sEmptyPasswd, SSHCFG_ALL },
-	{ "permituserenvironment", sPermitUserEnvironment, SSHCFG_GLOBAL },
+	{ "permituserenvironment", sPermitUserEnvironment, SSHCFG_ALL },
 	{ "uselogin", sDeprecated, SSHCFG_GLOBAL },
 	{ "compression", sCompression, SSHCFG_GLOBAL },
 	{ "rekeylimit", sRekeyLimit, SSHCFG_ALL },
